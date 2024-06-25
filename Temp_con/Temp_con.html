@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature_conversion</title>
+    <link rel="stylesheet" href="/Projects/Css files/Temp_con.css">
+</head>
+<body>
+
+    <form>
+        <h1>Temperature Conversion</h1>
+        <label for="textbox"></label>
+        <input type="number" placeholder = " sathish" value="0" id="textbox"><br>
+        <input type="radio" id="toFaherenheit" name="unit">
+        <label for="toFaherenheit">Celcius - Fahrenheit</label><br>
+
+        <input type="radio" id="toCelcius" name="unit">
+        <label for="toCelcius">Fahrenheit - Celcius </label><br>
+
+        <button type="button" onclick = "convert()">submit</button>
+
+        <p id="result"></p>
+
+    </form>
+
+    <script src="/Projects/JS files/Temp_con.js"></script>
+</body>
+</html>
