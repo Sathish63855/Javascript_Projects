@@ -61,7 +61,7 @@ function rollDice(){
     for( i = 0 ; i < numOfDice ; i++){
         const value = Math.floor(Math.random()*6)+1;
         values.push(value);
-        images.push(`<img src="/Projects/Assets/Dice_images/${value}.png" alt="Dice_${value}.png">`);
+        images.push(`<img src="/Dice_roll/Dice_images/${value}.png" alt="${value}.png">`);
     }
     diceResult.textContent = `Dice : ${values.join(", ")}`;
     diceImages.innerHTML = images.join(" ");
